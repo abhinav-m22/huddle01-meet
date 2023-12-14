@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/component/ChatBox/ChatBox.jsx", "src/component/ChatBox/LocalMessageBubble.jsx", "src/component/ChatBox/RemoteMessageBubble.jsx", "src/component/RemotePeer/RemotePeer.jsx", "src/pages/[roomId]/index.jsx", "src/pages/api/getAccessToken.js", "src/pages/api/startRecording.js", "src/pages/api/stopRecording.js", "src/pages/_app.jsx", "src/pages/_document.jsx", "src/pages/index.jsx", "tailwind.config.js"],
+  "exclude": ["node_modules"]
+}
