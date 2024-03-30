@@ -6,7 +6,7 @@ function RemoteMessageBubble({ message }) {
   return (
     <div className="items-start flex flex-col">
       <span className="text-blue-400">{metadata?.displayName}</span>
-      <span className="text-white text-sm">{message.text}</span>
+      <span className="text-black text-sm">{message.text}</span>
     </div>
   );
 }
